@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ html,body{
+    width: 100%;
+    height: 100%;
+ }
+@font-face {
+    font-family: pratik;
+    src: url(/PaytoneOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: pratik1;
+    src: url(/FamiljenGrotesk-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: pratik2;
+    src: url(/PatuaOne-Regular.ttf);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.menuicon i{
+    font-size: 25px;
+}
+.menu{
+    display: flex;
+}
+ 
+.menu li{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 2vw;
+    justify-content: center;
+}
+
+.info h1{
+    font-family: pratik;
+    font-size: 50px;
+}
+
+.info h6{
+    font-family: pratik1;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    padding-top: 2vh;
+    font-family: pratik2;
+    font-size: 16px;
+    width: 100px;
+}
+
+.link{
+    background-color: #ff006e;
+    width: 100px;
+    height: 50px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vw;
+    margin-left: 3vw;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+
+.info{
+    width: 30%;
+    height: 100%;
+    padding-left: 200px;
+}
+.img1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img{
+    width: 70%;
+    padding-right: 15%;
+    padding-bottom:10% ;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.calender i{
+    font-size: 50px;
+    color: orange;
+}
+
+.platform i{
+    font-size: 50px;
+    color: #ff006e;
+}
+
+.guide i{
+    font-size: 50px;
+    color: blue;
+}
